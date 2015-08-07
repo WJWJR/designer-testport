@@ -3,6 +3,7 @@ layout: post
 title:  "Ore litus reverti superi"
 date:   2015-08-01 16:55:07
 categories: jekyll update
+featured: true
 ---
 
 ## Has miratur imago tonitribus admoto

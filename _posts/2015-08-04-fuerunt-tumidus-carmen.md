@@ -3,6 +3,7 @@ layout: post
 title:  "Fuerunt tumidus carmen"
 date:   2015-08-04 16:55:07
 categories: jekyll update
+featured: true
 ---
 
 ## Modo cepit ingratos foedumque forma ac tumulum

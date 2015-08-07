@@ -4,20 +4,22 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!-- section for featured post -->
+  <!-- section for featured projects -->
+  <!-- section for latest articles -->
+  <section class="site-section site-section-last">
+    <div class="wrapper">
+      <h1>latest articles</h1>
+      <ul class="post-list">
+        <li class="post">
+          <h2>post title</h2>
+          <p>Lorem ipsum Eiusmod anim sunt magna mollit adipisicing ea labore dolor proident sit eu occaecat dolore aliqua consequat ullamco enim eu proident commodo eu incididunt velit. Lorem ipsum Laborum amet consectetur labore est est veniam in cillum reprehenderit quis adipisicing eu voluptate in magna in Excepteur consectetur amet eu dolor esse Duis est consectetur.</p>
+          <p class="post-read-more-link">
+            <a href="#">read more...</a>
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
 
 </div>
